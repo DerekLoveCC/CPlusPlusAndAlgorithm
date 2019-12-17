@@ -124,13 +124,17 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="Circle.cpp" />
+    <ClCompile Include="Complex.cpp" />
     <ClCompile Include="Main.cpp" />
     <ClCompile Include="MethodOverload.cpp" />
+    <ClCompile Include="Name.cpp" />
     <ClCompile Include="ReferenceVsPointer.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Circle.h" />
+    <ClInclude Include="Complex.h" />
     <ClInclude Include="MethodOverload.h" />
+    <ClInclude Include="Name.h" />
     <ClInclude Include="ReferenceVsPointor.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />

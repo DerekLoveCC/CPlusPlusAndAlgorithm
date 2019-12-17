@@ -1,17 +1,28 @@
 #include "Circle.h"
 double Circle::GetArea() {
-    return 3.14 * radius * radius;
+	return 3.14* radius* radius;
 }
 
 double Circle::GetRadius() {
-    return radius;
+	return radius;
 }
 
 void Circle::SetRadius(double radius) {
-    this->radius = radius;
+	this->radius = radius;
 }
 
 double Circle::GetGirth()
 {
-    return 3.14 * 2 * radius;
+	return 3.14 * 2 * radius;
+}
+
+Circle::Circle(const Circle& c) {
+	cout << "Const copy constructor" << endl;
+	this->radius = c.radius;
+}
+
+Circle& Circle::operator =(Circle& c) {
+	Circle a;
+	cout << "= is called" << endl;
+	return a;
 }

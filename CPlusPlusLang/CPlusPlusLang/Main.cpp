@@ -1,20 +1,25 @@
 #include "MethodOverload.h"
 #include "ReferenceVsPointor.h"
 #include "Circle.h"
+#include "Complex.h"
+#include<string.h>
 #include <iostream>
 using namespace std;
-int s = 100;
+
+
+
+
+
+
+
 int main()
 {
-    int a;
-    int b;
-    cout << "please int a and b" << endl;
+	/*name names[3] = { name("1"),name("2"),name("3") };
+	return 0;*/
 
-    cin >> a >> b;
-    cout << a << " " << b << endl;
-
-
-    Circle c;
-    c.SetRadius(10);
-    cout << c.GetArea() << endl;
+	Circle c1;
+	Circle c2;
+	c1.operator=(c2);
+	//Circle c3 = c2;
+	//c1 = c2;
 }
