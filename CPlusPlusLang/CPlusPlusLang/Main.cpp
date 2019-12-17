@@ -1,20 +1,22 @@
+#include <string.h>
+#include <fstream>
+#include <iostream>
+#include <vector>
+#include "Circle.h"
+#include "Complex.h"
 #include "MethodOverload.h"
 #include "ReferenceVsPointor.h"
-#include "Circle.h"
-#include <iostream>
 using namespace std;
-int s = 100;
-int main()
-{
-    int a;
-    int b;
-    cout << "please int a and b" << endl;
 
-    cin >> a >> b;
-    cout << a << " " << b << endl;
+int main() {
+  ifstream in(
+      "G:"
+      "\\GitHub\\CPlusPlusAndAlgorithm\\CPlusPlusLang\\CPlusPlusLang\\Debug\\CP"
+      "lusPlusLang.log");
+  vector<string> v;
+  string line;
 
-
-    Circle c;
-    c.SetRadius(10);
-    cout << c.GetArea() << endl;
+ /* while (std::getline(in, line)) {
+  
+  }*/
 }

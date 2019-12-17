@@ -1,4 +1,6 @@
 #pragma once
+#include <iostream>
+using namespace std;
 class Circle {
  private:
   double radius;
@@ -9,5 +11,7 @@ class Circle {
   double GetRadius();
   double GetArea();
   double GetGirth();
-  Circle();
+  Circle& operator=(Circle& c);
+  Circle() : radius(0) {}
+  Circle(const Circle& c);
 };
