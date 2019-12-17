@@ -1,4 +1,4 @@
-#include <string.h>
+#include <string>
 #include <fstream>
 #include <iostream>
 #include <vector>
@@ -8,15 +8,28 @@
 #include "ReferenceVsPointor.h"
 using namespace std;
 
-int main() {
-  ifstream in(
-      "G:"
-      "\\GitHub\\CPlusPlusAndAlgorithm\\CPlusPlusLang\\CPlusPlusLang\\Debug\\CP"
-      "lusPlusLang.log");
-  vector<string> v;
-  string line;
+void ReadFileToVector(string fileName) {
+	ifstream in(fileName);
+	vector<string> v;
+	string line;
 
- /* while (std::getline(in, line)) {
-  
-  }*/
+	while (getline(in, line))
+	{
+		v.push_back(line);
+	}
+
+	for (size_t i = 0; i < v.size(); i++)
+	{
+		cout << v[i] << endl;
+	}
 }
+
+
+int main() {
+
+	ReadFileToVector("C:\\Users\\XJC\\Desktop\\test.txt");
+	/* while (std::getline(in, line)) {
+
+	 }*/
+}
+

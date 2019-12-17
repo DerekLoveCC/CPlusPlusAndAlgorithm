@@ -16,7 +16,7 @@ double Circle::GetGirth()
 	return 3.14 * 2 * radius;
 }
 
-Circle::Circle(const Circle& c) {
+Circle::Circle(const Circle& c):PI(3.14) {
 	cout << "Const copy constructor" << endl;
 	this->radius = c.radius;
 }
@@ -26,8 +26,5 @@ Circle& Circle::operator =(Circle& c) {
 	cout << "= is called" << endl;
 	return a;
 }
-double Circle::GetGirth() {
-  return 3.14 * 2 * radius;
-}
 
-Circle::Circle() : pi(3.14) {}
+Circle::Circle() : PI(3.14) {}

@@ -4,7 +4,7 @@ using namespace std;
 class Circle {
  private:
   double radius;
-  const int pi;
+  const int PI;
 
  public:
   void SetRadius(double radius);
@@ -12,6 +12,6 @@ class Circle {
   double GetArea();
   double GetGirth();
   Circle& operator=(Circle& c);
-  Circle() : radius(0) {}
+  Circle();
   Circle(const Circle& c);
 };
