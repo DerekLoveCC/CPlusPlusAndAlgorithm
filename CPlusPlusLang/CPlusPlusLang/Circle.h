@@ -11,6 +11,7 @@ class Circle {
   double GetRadius();
   double GetArea();
   double GetGirth();
+  double GetGirth() const;
   Circle& operator=(Circle& c);
   Circle();
   Circle(const Circle& c);

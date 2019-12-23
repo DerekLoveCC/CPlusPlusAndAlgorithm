@@ -11,20 +11,25 @@ void Circle::SetRadius(double radius) {
   this->radius = radius;
 }
 
-double Circle::GetGirth()
-{
-	return 3.14 * 2 * radius;
+double Circle::GetGirth() {
+  cout << "2" << endl;
+
+  return 3.14 * 2 * radius;
+}
+double Circle::GetGirth() const {
+  cout << "1" << endl;
+  return 3.14 * 2 * radius;
 }
 
-Circle::Circle(const Circle& c):PI(3.14) {
-	cout << "Const copy constructor" << endl;
-	this->radius = c.radius;
+Circle::Circle(const Circle& c) : PI(3.14) {
+  cout << "Const copy constructor" << endl;
+  this->radius = c.radius;
 }
 
-Circle& Circle::operator =(Circle& c) {
-	Circle a;
-	cout << "= is called" << endl;
-	return a;
+Circle& Circle::operator=(Circle& c) {
+  Circle a;
+  cout << "= is called" << endl;
+  return a;
 }
 
 Circle::Circle() : PI(3.14) {}

@@ -21,3 +21,4 @@ double compare(double a, double b) {
   else
     return 1;
 }
+
