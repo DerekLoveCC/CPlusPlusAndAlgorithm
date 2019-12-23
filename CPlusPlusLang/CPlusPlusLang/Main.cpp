@@ -4,6 +4,7 @@
 #include <vector>
 #include "Circle.h"
 #include "Complex.h"
+#include "Employee.h"
 #include "MethodOverload.h"
 #include "ReferenceVsPointor.h"
 using namespace std;
@@ -23,10 +24,10 @@ void ReadFileToVector(string fileName) {
 }
 
 int main() {
-  Circle c;
-  double d = c.GetGirth();
+  const Person& person = Employee("Derek");
+  person.PrintName();
 
-  //ReadFileToVector("C:\\Users\\XJC\\Desktop\\test.txt");
+  // ReadFileToVector("C:\\Users\\XJC\\Desktop\\test.txt");
   /* while (std::getline(in, line)) {
 
    }*/
