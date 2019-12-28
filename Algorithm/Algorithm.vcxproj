@@ -123,6 +123,13 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="LinearModeRandom.cpp" />
+    <ClCompile Include="MianFunc.cpp" />
+    <ClCompile Include="NumericCalculation.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="LinearModeRandom.h" />
+    <ClInclude Include="NumericCalculation.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

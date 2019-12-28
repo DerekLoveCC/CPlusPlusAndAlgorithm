@@ -13,5 +13,36 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
+    <Filter Include="Source Files\DivideAndConquer">
+      <UniqueIdentifier>{6af520c2-5a7f-4afb-b7dd-0ae01a553989}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\DynamicPlanning">
+      <UniqueIdentifier>{bd8f2191-8b54-4e76-a333-1a1131c4e776}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Randomize">
+      <UniqueIdentifier>{887f3eae-21c1-476b-8fcd-9a6a70e91ccf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Greedy">
+      <UniqueIdentifier>{cdd22b2d-41ed-44e0-9ca3-8934e2c60e78}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="NumericCalculation.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="LinearModeRandom.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="NumericCalculation.cpp">
+      <Filter>Source Files\Randomize</Filter>
+    </ClCompile>
+    <ClCompile Include="LinearModeRandom.cpp">
+      <Filter>Source Files\Randomize</Filter>
+    </ClCompile>
+    <ClCompile Include="MianFunc.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>

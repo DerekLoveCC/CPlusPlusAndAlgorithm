@@ -9,3 +9,5 @@
 *.user
 /CPlusPlusLang/CPlusPlusLang/x64/Debug
 /CPlusPlusLang/x64/Debug
+/Debug
+/Algorithm/Debug
