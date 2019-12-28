@@ -33,5 +33,5 @@ int main() {
 
    }*/
     SEHTester SehTester;
-    SehTester.Test();
+    SehTester.TestThrowExceptionInCtor();
 }

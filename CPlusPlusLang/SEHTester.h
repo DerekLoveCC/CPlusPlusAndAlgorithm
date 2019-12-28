@@ -5,8 +5,11 @@ using namespace std;
 class SEHTester
 {
 public:
-	SEHTester();
-	~SEHTester();
-	void Test();
+    SEHTester();
+    ~SEHTester();
+    void Test();
+    void TestCustomizedExceptionClass();
+    void TestSpecifyExceptionTypes() noexcept;
+    void TestThrowExceptionInCtor();
 };
 
