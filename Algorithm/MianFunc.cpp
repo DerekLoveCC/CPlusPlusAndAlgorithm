@@ -13,7 +13,7 @@ int main() {
 
 
     NumericCalculation nc;
-    for (size_t i = 1000; i <= 100000; i += 1000)
+    for (size_t i = 10000; i <= 1000000; i += 10000)
     {
         cout << i << ":PI-" << nc.CalculatePI(i) << endl;
     }
