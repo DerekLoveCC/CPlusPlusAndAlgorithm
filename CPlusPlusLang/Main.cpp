@@ -7,6 +7,7 @@
 #include "Employee.h"
 #include "MethodOverload.h"
 #include "ReferenceVsPointor.h"
+#include "SEHTester.h"
 using namespace std;
 
 void ReadFileToVector(string fileName) {
@@ -24,11 +25,13 @@ void ReadFileToVector(string fileName) {
 }
 
 int main() {
-  const Person& person = Employee("Derek");
-  person.PrintName();
+  //const Person& person = Employee("Derek");
+  //person.PrintName();
 
   // ReadFileToVector("C:\\Users\\XJC\\Desktop\\test.txt");
   /* while (std::getline(in, line)) {
 
    }*/
+    SEHTester SehTester;
+    SehTester.Test();
 }

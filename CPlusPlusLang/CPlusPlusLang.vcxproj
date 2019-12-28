@@ -131,6 +131,7 @@
     <ClCompile Include="Name.cpp" />
     <ClCompile Include="Person.cpp" />
     <ClCompile Include="ReferenceVsPointer.cpp" />
+    <ClCompile Include="SEHTester.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Circle.h" />
@@ -140,6 +141,7 @@
     <ClInclude Include="Name.h" />
     <ClInclude Include="Person.h" />
     <ClInclude Include="ReferenceVsPointor.h" />
+    <ClInclude Include="SEHTester.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
