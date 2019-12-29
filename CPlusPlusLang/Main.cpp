@@ -8,6 +8,8 @@
 #include "MethodOverload.h"
 #include "ReferenceVsPointor.h"
 #include "SEHTester.h"
+#include "TemplateTest.h"
+#include "TemplateTest.cpp"
 using namespace std;
 
 void ReadFileToVector(string fileName) {
@@ -34,4 +36,10 @@ int main() {
    }*/
     SEHTester SehTester;
     SehTester.TestThrowExceptionInCtor();
+    int a = 100;
+    int b = 200;
+    TemplateTest<int> tt;
+    tt.Swap(a, b);
+    cout << a << " " << b << endl;
+    
 }

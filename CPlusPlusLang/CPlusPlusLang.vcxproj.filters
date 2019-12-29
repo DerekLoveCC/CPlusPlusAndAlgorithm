@@ -13,34 +13,40 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
+    <Filter Include="Source Files\Basic">
+      <UniqueIdentifier>{655f8a63-c330-40ea-b3d2-c65aa9b1418b}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Main.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="MethodOverload.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="ReferenceVsPointer.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
     <ClCompile Include="Circle.cpp">
-      <Filter>Source Files</Filter>
+      <Filter>Source Files\Basic</Filter>
     </ClCompile>
     <ClCompile Include="Complex.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="Name.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="Person.cpp">
-      <Filter>Source Files</Filter>
+      <Filter>Source Files\Basic</Filter>
     </ClCompile>
     <ClCompile Include="Employee.cpp">
-      <Filter>Source Files</Filter>
+      <Filter>Source Files\Basic</Filter>
+    </ClCompile>
+    <ClCompile Include="MethodOverload.cpp">
+      <Filter>Source Files\Basic</Filter>
+    </ClCompile>
+    <ClCompile Include="Name.cpp">
+      <Filter>Source Files\Basic</Filter>
+    </ClCompile>
+    <ClCompile Include="Person.cpp">
+      <Filter>Source Files\Basic</Filter>
+    </ClCompile>
+    <ClCompile Include="ReferenceVsPointer.cpp">
+      <Filter>Source Files\Basic</Filter>
     </ClCompile>
     <ClCompile Include="SEHTester.cpp">
-      <Filter>Source Files</Filter>
+      <Filter>Source Files\Basic</Filter>
+    </ClCompile>
+    <ClCompile Include="TemplateTest.cpp">
+      <Filter>Source Files\Basic</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
@@ -66,6 +72,9 @@
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="SEHTester.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="TemplateTest.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
